@@ -1,20 +1,172 @@
-{% extends 'base.html.twig' %}
-
-{% block title %}Hello DefaultController!{% endblock %}
-
+{% extends 'app/base.html.twig' %}
+{% block title %}{{ title }}{% endblock %}
 {% block body %}
-<style>
-    .example-wrapper { margin: 1em auto; max-width: 800px; width: 95%; font: 18px/1.5 sans-serif; }
-    .example-wrapper code { background: #F5F5F5; padding: 2px 6px; }
-</style>
+    <div class="row text-left"
+         style="font-family: 'Montserrat SemiBold', sans-serif; font-size: 22pt; margin-top: 30px; margin-bottom: 10px">
+        Top Sells
+    </div>
+    <div class="row text-center" style="margin-left: -30px; margin-right: -30px ">
+        <div class="col-3 mt-3">
+            <div class="card-deck">
+                <div class="card shadow-sm" style="border-radius: 10px; width: 300px; height: 350px">
+                    <div class="card-image"
+                         style="background-image: url('https://productimages.hepsiburada.net/s/40/200-200/10683681734706.jpg')">
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-title"><a style="font-size: 9pt">Samsung QE55Q60TAUXTK 55'' 139 Ekran Uydu
+                                Alıcılı 4K Ultra HD Smart QLED TV</a></h5>
+                        <p class="card-text pt-2"><strong><a style="font-size: 14pt; color: orangered">3999</a><a
+                                        style="font-size: 9pt; color: orangered">TL</a></strong></p>
+                        <strike><a class="text-black-50" style="font-size: 9pt">4579 TL</a></strike>
 
-<div class="example-wrapper">
-    <h1>Hello {{ controller_name }}! ✅</h1>
+                    </div>
+                </div>
+            </div>
+        </div>
 
-    This friendly message is coming from:
-    <ul>
-        <li>Your controller at <code><a href="{{ 'C:/xampp/htdocs/marketplace/src/Controller/App/DefaultController.php'|file_link(0) }}">src/Controller/App/DefaultController.php</a></code></li>
-        <li>Your template at <code><a href="{{ 'C:/xampp/htdocs/marketplace/templates/app/default/index.html.twig'|file_link(0) }}">templates/app/default/index.html.twig</a></code></li>
-    </ul>
-</div>
+        <div class="col-3 mt-3">
+            <div class="card-deck ">
+                <div class="card shadow-sm" style="border-radius: 10px; width: 300px; height: 350px">
+                    <div class="card-image"
+                         style="background-image: url('https://productimages.hepsiburada.net/s/41/200-200/10719592480818.jpg')">
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-title"><a style="font-size: 9pt">Samsung QE55Q60TAUXTK 55'' 139 Ekran Uydu
+                                Alıcılı 4K Ultra HD Smart QLED TV</a></h5>
+                        <p class="card-text pt-2"><strong><a style="font-size: 14pt; color: orangered">3999</a><a
+                                        style="font-size: 9pt; color: orangered">TL</a></strong></p>
+                        <strike><a class="text-black-50" style="font-size: 9pt">4579 TL</a></strike>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-3 mt-3">
+            <div class="card-deck">
+                <div class="card shadow-sm" style="border-radius: 10px; width: 300px; height: 350px">
+                    <div class="card-image"
+                         style="background-image: url('https://productimages.hepsiburada.net/s/45/200-200/10824697053234.jpg')">
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-title"><a style="font-size: 9pt">Samsung QE55Q60TAUXTK 55'' 139 Ekran Uydu
+                                Alıcılı 4K Ultra HD Smart QLED TV</a></h5>
+                        <p class="card-text pt-2"><strong><a style="font-size: 14pt; color: orangered">3999</a><a
+                                        style="font-size: 9pt; color: orangered">TL</a></strong></p>
+                        <strike><a class="text-black-50" style="font-size: 9pt">4579 TL</a></strike>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-3 mt-3">
+            <div class="card-deck">
+                <div class="card shadow-sm" style="border-radius: 10px; width: 300px; height: 350px">
+                    <div class="card-image"
+                         style="background-image: url('https://productimages.hepsiburada.net/s/45/200-200/10833194844210.jpg')">
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-title"><a style="font-size: 9pt">Samsung QE55Q60TAUXTK 55'' 139 Ekran Uydu
+                                Alıcılı 4K Ultra HD Smart QLED TV</a></h5>
+                        <p class="card-text pt-2"><strong><a style="font-size: 14pt; color: orangered">3999</a><a
+                                        style="font-size: 9pt; color: orangered">TL</a></strong></p>
+                        <strike><a class="text-black-50" style="font-size: 9pt">4579 TL</a></strike>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="row text-left"
+         style="font-family: 'Montserrat SemiBold', sans-serif; font-size: 22pt; margin-top: 30px; margin-bottom: 10px">
+        Brands
+    </div>
+    <div class="row text-center" style="margin-left: -30px; margin-right: -30px ">
+        <div class="col-2 mt-3">
+            <div class="card-deck" style=" width: 175px; ">
+                <div class="card shadow-sm" style="border-radius: 10px; height: 100px">
+                    <div class="card-image"
+                         style="background-image: url('https://images.hepsiburada.net/banners/s/0/128-80/featurelist_68_20201105194324.png/format:webp')">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-2 mt-3">
+            <div class="card-deck" style=" width: 175px; ">
+                <div class="card shadow-sm" style="border-radius: 10px; height: 100px">
+                    <div class="card-image"
+                         style="background-image: url('https://images.hepsiburada.net/banners/s/0/128-80/featurelist_68_20201105113439.png/format:webp')">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-2 mt-3">
+            <div class="card-deck" style=" width: 175px; ">
+                <div class="card shadow-sm" style="border-radius: 10px; height: 100px">
+                    <div class="card-image"
+                         style="background-image: url('https://images.hepsiburada.net/banners/s/0/128-80/featurelist_68_20201105121647.png/format:webp')">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-2 mt-3">
+            <div class="card-deck" style=" width: 175px; ">
+                <div class="card shadow-sm" style="border-radius: 10px; height: 100px">
+                    <div class="card-image"
+                         style="background-image: url('https://images.hepsiburada.net/banners/s/0/128-80/featurelist_68_20201105122458.png/format:webp')">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-2 mt-3">
+            <div class="card-deck" style=" width: 175px; ">
+                <div class="card shadow-sm" style="border-radius: 10px; height: 100px">
+                    <div class="card-image"
+                         style="background-image: url('https://images.hepsiburada.net/banners/s/0/128-80/featurelist_68_20201105123121.png/format:webp')">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-2 mt-3">
+            <div class="card-deck" style=" width: 175px; ">
+                <div class="card shadow-sm" style="border-radius: 10px; height: 100px">
+                    <div class="card-image"
+                         style="background-image: url('https://images.hepsiburada.net/banners/s/0/128-80/featurelist_68_20201105124728.png/format:webp')">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="row text-center" style="margin-left: -30px; margin-right: 30px ">
+        <div class="col-2 mt-5">
+            <div class="card-deck" style=" width: 1150px; ">
+                <div class="card shadow-sm" style="border-radius: 10px; height: 350px; background-color: lightgrey">
+                    <div class="card-images" style="background-image: url('https://cdn.shopify.com/s/files/1/0115/0272/collections/collection-banner_iPhone_12_6.1_Pro_1200x1200.jpg?v=1602725877'); height: 350px;
+            width: 100%;
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center center;border-radius: 10px;">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <style>
+        .card .card-image {
+            height: 200px;
+            width: auto;
+            background-size: auto 100%;
+            background-repeat: no-repeat;
+            background-position: center center;
+        }
+
+        .card .card-body .card-title {
+            height: 60px;
+        }
+
+
+    </style>
 {% endblock %}
