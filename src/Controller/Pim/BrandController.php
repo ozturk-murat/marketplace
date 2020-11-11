@@ -11,5 +11,5 @@ use Symfony\Component\Routing\Annotation\Route;
  */
 class BrandController extends AbstractController
 {
-    
+
 }
