@@ -3,9 +3,8 @@
 /.env.local.php
 /.env.*.local
 .env
-.idea
+/.idea
 .gitignore
-/.idea/
 composer.lock
 /config/secrets/prod/prod.decrypt.private.php
 /public/bundles/
