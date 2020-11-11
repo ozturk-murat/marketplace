@@ -2,20 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="08d9e328-bd3b-4363-99b4-ae9338d901ce" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/prosper-marketplace-corporate-logo.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/.htaccess" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/css/bootstrap.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/css/style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/js/bootstrap.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/js/jquery.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/js/pooper.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/app/base.html.twig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/app/header.html.twig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/app/slider.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Controller/App/ProductsListController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/app/products_list/index.html.twig" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Controller/App/DefaultController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/App/DefaultController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/app/base.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/app/base.html.twig" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/app/default/index.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/app/default/index.html.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/base.html.twig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/app/header.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/app/header.html.twig" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -181,6 +173,10 @@
       <workItem from="1604990207766" duration="12603000" />
       <workItem from="1605009336300" duration="4081000" />
       <workItem from="1605019641002" duration="12756000" />
+      <workItem from="1605037599621" duration="109000" />
+      <workItem from="1605075913940" duration="2122000" />
+      <workItem from="1605089721361" duration="596000" />
+      <workItem from="1605118713707" duration="5366000" />
     </task>
     <task id="LOCAL-00001" summary="ignore files">
       <created>1604846717762</created>
@@ -203,7 +199,14 @@
       <option name="project" value="LOCAL" />
       <updated>1604846972640</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="main">
+      <created>1605037688965</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1605037688965</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -214,13 +217,14 @@
     <MESSAGE value="ignore files" />
     <MESSAGE value="fix" />
     <MESSAGE value="first controller" />
-    <option name="LAST_COMMIT_MESSAGE" value="first controller" />
+    <MESSAGE value="main" />
+    <option name="LAST_COMMIT_MESSAGE" value="main" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="585" y="1" key="CommitChangelistDialog2" timestamp="1604846972189">
+    <state x="585" y="1" key="CommitChangelistDialog2" timestamp="1605037688036">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="585" y="1" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1604846972189" />
+    <state x="585" y="1" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1605037688036" />
     <state x="184" y="85" key="DiffContextDialog" timestamp="1604846714455">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -233,17 +237,17 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="461" y="165" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1604847473418" />
-    <state x="552" y="249" key="Vcs.Push.Dialog.v2" timestamp="1604847040310">
+    <state x="552" y="249" key="Vcs.Push.Dialog.v2" timestamp="1605037697065">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="249" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1604847040310" />
+    <state x="552" y="249" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1605037697065" />
     <state x="777" y="430" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1604846999797">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="777" y="430" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040@0.0.1920.1040" timestamp="1604846999797" />
-    <state x="616" y="240" key="run.anything.popup" timestamp="1604995098987">
+    <state x="616" y="240" key="run.anything.popup" timestamp="1605123379009">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="616" y="240" key="run.anything.popup/0.0.1920.1040/0.1080.1920.1040@0.0.1920.1040" timestamp="1604995098987" />
+    <state x="616" y="240" key="run.anything.popup/0.0.1920.1040/0.1080.1920.1040@0.0.1920.1040" timestamp="1605123379009" />
   </component>
 </project>
