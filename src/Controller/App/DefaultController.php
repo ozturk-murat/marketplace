@@ -19,4 +19,37 @@ class DefaultController extends AbstractController
           "title" => "Home"
         ];
     }
+
+    /**
+     * @Route("/account")
+     * @Template()
+     */
+    public function account()
+    {
+        return [
+            "title" => "account"
+        ];
+    }
+
+    /**
+     * @Route("/account/orders")
+     * @Template()
+     */
+    public function orders()
+    {
+        return [
+            "title" => "Orders"
+        ];
+    }
+
+    /**
+     * @Route("/account/address")
+     * @Template()
+     */
+    public function address()
+    {
+        return [
+            "title" => "Address"
+        ];
+    }
 }

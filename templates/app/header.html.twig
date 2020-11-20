@@ -19,8 +19,8 @@
 
                                 {# LOGO #}
                                 <div class="col-sm">
-                                    <img style="width: auto; height: 32px; float: left"
-                                         src='https://iconape.com/wp-content/files/fl/85575/svg/prosper-marketplace-corporate-logo.svg'>
+                                    <a href="{{ path('app_app_default_index') }}"><img style="width: auto; height: 32px; float: left"
+                                          src='https://iconape.com/wp-content/files/fl/85575/svg/prosper-marketplace-corporate-logo.svg'></a>
                                 </div>
 
                                 {# SEARCH #}
@@ -47,10 +47,6 @@
                                         </a>
 
                                         <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
-                                            <a class="dropdown-item" href="#">My Orders</a>
-                                            <a class="dropdown-item" href="#">Account</a>
-                                            <a class="dropdown-item" href="#">Wish List</a>
-                                            <a class="dropdown-item" href="#">Log Ot</a>
                                         </div>
                                     </div>
                                     <div class="dropdown show" style="float: right">
@@ -60,8 +56,8 @@
                                         </a>
 
                                         <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
-                                            <a class="dropdown-item" href="#">My Orders</a>
-                                            <a class="dropdown-item" href="#">Account</a>
+                                            <a class="dropdown-item" href="{{ path('app_app_default_orders')}}">My Orders</a>
+                                            <a class="dropdown-item" href="{{ path('app_app_default_account') }}">Account</a>
                                             <a class="dropdown-item" href="#">Wish List</a>
                                             <a class="dropdown-item" href="#">Log Ot</a>
                                         </div>

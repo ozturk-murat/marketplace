@@ -24,13 +24,16 @@ class ProductController extends AbstractController
     }
 
      /**
-     * @Route("/{slug}")
+     * @Route("/detail")
      * @Template()
      */
-    public function detail($slug)
+    public function detail()
     {
         return [
             "title" => "Product List"
         ];
     }
+
+
+
 }

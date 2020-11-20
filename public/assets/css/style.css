@@ -1,18 +1,22 @@
+* {
+
+}
 ul.menu {
-    list-style: none;
     height: 42px;
     font-family: "Montserrat Medium", sans-serif;
     position: relative;
     display: flex;
     justify-content: center;
     z-index: 999;
-
+    list-style-type: none;
+    text-decoration: none;
 }
 
 ul.menu >li {
     float: left;
     height: 42px;
     position: relative;
+    text-decoration: none;
 }
 
 ul.menu >li >a {
@@ -22,6 +26,7 @@ ul.menu >li >a {
     padding: 0 15px;
     line-height: 42px;
     border-right: 1px solid rgba(0,0,0,.1);
+    list-style-type: none;
     text-decoration: none;
 
 }
@@ -38,10 +43,15 @@ ul.menu ul {
     border-bottom: 1px solid rgba(0,0,0,.1);
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
+    list-style-type: none;
+    text-decoration: none;
+    padding: 0;
+    margin: 0;
 }
 
 ul.menu ul li a {
     display: block;
+    margin-left: 0;
     padding: 7px 12px;
     color: #222222;
     text-decoration: none;
