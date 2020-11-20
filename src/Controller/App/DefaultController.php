@@ -52,4 +52,26 @@ class DefaultController extends AbstractController
             "title" => "Address"
         ];
     }
+
+    /**
+     * @Route("/account/coupons")
+     * @Template()
+     */
+    public function coupons()
+    {
+        return [
+            "title" => "Coupons"
+        ];
+    }
+
+    /**
+     * @Route("/account/liked")
+     * @Template()
+     */
+    public function liked()
+    {
+        return [
+            "title" => "Liked"
+        ];
+    }
 }

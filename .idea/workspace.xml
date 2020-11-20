@@ -2,19 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="08d9e328-bd3b-4363-99b4-ae9338d901ce" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/templates/app/default/account.html.twig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/app/default/address.html.twig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/app/default/orders.html.twig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/app/product/list_menu.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/app/default/coupons.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/app/default/liked.html.twig" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/css/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Controller/App/DefaultController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/App/DefaultController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Controller/App/ProductController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/App/ProductController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/app/default/index.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/app/default/index.html.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/app/footer.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/app/footer.html.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/app/header.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/app/header.html.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/app/product/detail.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/app/product/detail.html.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/app/product/list.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/app/product/list.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/app/default/account.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/app/default/account.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/app/default/address.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/app/default/address.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/app/product/list_menu.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/app/product/list_menu.html.twig" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -248,6 +242,10 @@
     <option name="LAST_COMMIT_MESSAGE" value="slider fix" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="695" y="310" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1605883022072">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="695" y="310" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1605883022072" />
     <state x="585" y="1" key="CommitChangelistDialog2" timestamp="1605037688036">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -266,10 +264,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="461" y="165" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1604847473418" />
-    <state x="552" y="249" key="Vcs.Push.Dialog.v2" timestamp="1605128934099">
+    <state x="552" y="249" key="Vcs.Push.Dialog.v2" timestamp="1605871700524">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="249" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1605128934099" />
+    <state x="552" y="249" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1605871700524" />
     <state x="777" y="430" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1605129947219">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
