@@ -74,4 +74,16 @@ class DefaultController extends AbstractController
             "title" => "Liked"
         ];
     }
+
+    /**
+     * @Route("/account/card")
+     * @Template()
+     */
+    public function card()
+    {
+        return [
+            "title" => "Shopping Card"
+        ];
+    }
+
 }

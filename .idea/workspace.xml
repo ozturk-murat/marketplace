@@ -2,13 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="08d9e328-bd3b-4363-99b4-ae9338d901ce" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/templates/app/default/coupons.html.twig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/app/default/liked.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/app/default/card.html.twig" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Controller/App/DefaultController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/App/DefaultController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/app/default/account.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/app/default/account.html.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/app/default/address.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/app/default/address.html.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/app/product/list_menu.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/app/product/list_menu.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/app/header.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/app/header.html.twig" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -190,6 +187,8 @@
       <workItem from="1605635298860" duration="1233000" />
       <workItem from="1605705575817" duration="1417000" />
       <workItem from="1605718496765" duration="595000" />
+      <workItem from="1605895636273" duration="708000" />
+      <workItem from="1605973021607" duration="11471000" />
     </task>
     <task id="LOCAL-00001" summary="ignore files">
       <created>1604846717762</created>
@@ -226,7 +225,14 @@
       <option name="project" value="LOCAL" />
       <updated>1605128695533</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Last Commit">
+      <created>1605895683603</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1605895683603</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -239,7 +245,8 @@
     <MESSAGE value="first controller" />
     <MESSAGE value="main" />
     <MESSAGE value="slider fix" />
-    <option name="LAST_COMMIT_MESSAGE" value="slider fix" />
+    <MESSAGE value="Last Commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="Last Commit" />
   </component>
   <component name="WindowStateProjectService">
     <state x="695" y="310" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1605883022072">
@@ -264,18 +271,29 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="461" y="165" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1604847473418" />
-    <state x="552" y="249" key="Vcs.Push.Dialog.v2" timestamp="1605871700524">
+    <state x="552" y="249" key="Vcs.Push.Dialog.v2" timestamp="1605895747832">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="249" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1605871700524" />
+    <state x="552" y="249" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1605895747832" />
     <state x="777" y="430" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1605129947219">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="777" y="430" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040@0.0.1920.1040" timestamp="1605129947219" />
-    <state x="616" y="240" key="run.anything.popup" timestamp="1605706219550">
+    <state x="616" y="240" key="run.anything.popup" timestamp="1605981220994">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="616" y="240" key="run.anything.popup/0.0.1920.1040/0.1080.1920.1040@0.0.1920.1040" timestamp="1605123379009" />
+    <state x="616" y="240" key="run.anything.popup/0.0.1920.1040/0.1080.1920.1040@0.0.1920.1040" timestamp="1605981220994" />
     <state x="616" y="240" key="run.anything.popup/0.1080.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1605706219550" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/templates/app/default/card.html.twig</url>
+          <line>58</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
