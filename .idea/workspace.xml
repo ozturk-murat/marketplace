@@ -2,9 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="08d9e328-bd3b-4363-99b4-ae9338d901ce" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/templates/app/default/card.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/app/default/delivery.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/app/default/payment.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/app/default/success.html.twig" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Controller/App/DefaultController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/App/DefaultController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/app/default/card.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/app/default/card.html.twig" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/app/header.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/app/header.html.twig" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -189,6 +192,9 @@
       <workItem from="1605718496765" duration="595000" />
       <workItem from="1605895636273" duration="708000" />
       <workItem from="1605973021607" duration="11471000" />
+      <workItem from="1606119964742" duration="134000" />
+      <workItem from="1606138590325" duration="466000" />
+      <workItem from="1606148207859" duration="3539000" />
     </task>
     <task id="LOCAL-00001" summary="ignore files">
       <created>1604846717762</created>
@@ -271,9 +277,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="461" y="165" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1604847473418" />
-    <state x="552" y="249" key="Vcs.Push.Dialog.v2" timestamp="1605895747832">
+    <state x="552" y="249" key="Vcs.Push.Dialog.v2" timestamp="1605989627148">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
+    <state x="552" y="249" key="Vcs.Push.Dialog.v2/0.0.1920.1040/0.1080.1920.1040@0.0.1920.1040" timestamp="1605989627148" />
     <state x="552" y="249" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1605895747832" />
     <state x="777" y="430" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1605129947219">
       <screen x="0" y="0" width="1920" height="1040" />

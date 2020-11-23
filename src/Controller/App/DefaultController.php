@@ -86,4 +86,37 @@ class DefaultController extends AbstractController
         ];
     }
 
+    /**
+     * @Route("/account/card/delivery"),
+     * @Template()
+     */
+    public function delivery()
+    {
+        return [
+            "title" => "Delivery"
+        ];
+    }
+
+    /**
+     * @Route("/account/card/payment"),
+     * @Template()
+     */
+    public function payment()
+    {
+        return [
+            "title" => "Payment"
+        ];
+    }
+
+    /**
+     * @Route("/account/card/success"),
+     * @Template()
+     */
+    public function success()
+    {
+        return [
+            "title" => "success"
+        ];
+    }
+
 }

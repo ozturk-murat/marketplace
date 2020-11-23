@@ -3,34 +3,27 @@
     <div class="container">
         <div class="row mt-4">
             <div class="col-9 pr-4">
-                <div class="row mt-4 pb-2 border-bottom">
-                    <div class="col-4">
-                        <p class="my-1">Product</p>
-                    </div>
-                    <div class="col-2 text-center">
-                        <p class="my-1">Quantity</p>
-                    </div>
-                    <div class="col-3 text-center">
-                        <p class="my-1">Price</p>
-                    </div>
-                    <div class="col-3 text-right">
-                        <p class="my-1">Total</p>
+                <h5 class="text-dark pb-2 mt-4">Delivery Address</h5>
+                <div class="card mb-2">
+                    <div class="card-body">
+                        <h5 class="card-title">Username's House</h5>
+                        <p class="card-text">Mimarsinan Mh. Emiroglu Cd. YAsardogu Sk. No:34/2 TUZLA/ISTANBUL</p>
                     </div>
                 </div>
-                <div class="row mt-4 pb-2 border-bottom">
-                    <div class="col-4">
-                        <a href="{{ path('app_app_product_detail') }}" style="font-size: 13pt">HP Pavilion 15-DK1009NT</a>
-                    </div>
-                    <div class="col-2 text-right">
-                        <input type="quantity" class="form-control" value="1">
-                    </div>
-                    <div class="col-3 text-center">
-                        <p class="mt-1" style="font-size: 12pt;">$839.00</p>
-                    </div>
-                    <div class="col-3 text-right">
-                        <p class="mt-1" style="font-size: 12pt;">$839.00</p>
+                <p class="card-text text-right">
+                    <a href="#" class="text-muted">Add New Address</a>
+                </p>
+
+                <h5 class="text-dark pb-2 mt-4">Invoice Address</h5>
+                <div class="card mb-2">
+                    <div class="card-body">
+                        <h5 class="card-title">Username's House</h5>
+                        <p class="card-text">Mimarsinan Mh. Emiroglu Cd. YAsardogu Sk. No:34/2 TUZLA/ISTANBUL</p>
                     </div>
                 </div>
+                <p class="card-text text-right">
+                    <a href="#" class="text-muted">Add New Address</a>
+                </p>
             </div>
             <div class="col-3 pl-4 mt-4">
                 <div class="card bg-transparent border" style="width: 18rem;">
@@ -48,7 +41,7 @@
                             <div class="col-6"><h6>Total</h6></div>
                             <div class="col-6 text-right">$839.00</div>
                         </div>
-                        <a href="{{ path('app_app_default_delivery') }}"><button type="button" class="btn btn-md btn-light border mt-2 mb-5 w-100">Proceed to Checkout</button></a>
+                        <a href="{{ path('app_app_default_payment') }}"><button type="button" class="btn btn-md btn-light border mt-2 mb-5 w-100">Proceed to Checkout</button></a>
                         <small>Enter Code</small>
                         <input type="code" class="form-control mt-2" placeholder="GIFT CODE">
                         <button type="button" class="btn btn-md btn-light border mt-2 w-100">Apply Code</button>
