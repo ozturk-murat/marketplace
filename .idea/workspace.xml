@@ -43,10 +43,10 @@
   <component name="ChangeListManager">
     <list default="true" id="08d9e328-bd3b-4363-99b4-ae9338d901ce" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/app/default/account.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/app/default/account.html.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/app/default/success.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/app/default/success.html.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/app/header.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/app/header.html.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/app/product/list_menu.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/app/product/list_menu.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/admin/base.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/admin/base.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/admin/default/index.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/admin/default/index.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/admin/header.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/admin/header.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/app/product/list.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/app/product/list.html.twig" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -188,7 +188,7 @@
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="Symfony2.SettingsForm" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
@@ -234,6 +234,13 @@
       <workItem from="1606138590325" duration="466000" />
       <workItem from="1606148207859" duration="3539000" />
       <workItem from="1606460527977" duration="2514000" />
+      <workItem from="1606638674205" duration="1181000" />
+      <workItem from="1606735195697" duration="163000" />
+      <workItem from="1606756524302" duration="460000" />
+      <workItem from="1606890315920" duration="191000" />
+      <workItem from="1606985127295" duration="36000" />
+      <workItem from="1607160710392" duration="3680000" />
+      <workItem from="1607359876011" duration="5491000" />
     </task>
     <task id="LOCAL-00001" summary="ignore files">
       <created>1604846717762</created>
@@ -311,7 +318,8 @@
     <MESSAGE value="slider fix" />
     <MESSAGE value="Last Commit" />
     <MESSAGE value="Checkout Process" />
-    <option name="LAST_COMMIT_MESSAGE" value="Checkout Process" />
+    <MESSAGE value="UI DONE" />
+    <option name="LAST_COMMIT_MESSAGE" value="UI DONE" />
   </component>
   <component name="WindowStateProjectService">
     <state x="695" y="310" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1605883022072">
@@ -332,15 +340,17 @@
     <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040/0.1080.1920.1040@0.0.1920.1040" timestamp="1605271288325" />
     <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1604847317127" />
     <state x="740" y="275" key="FileChooserDialogImpl/0.1080.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1605523217233" />
-    <state x="461" y="165" key="SettingsEditor" timestamp="1604847473418">
+    <state x="461" y="165" key="SettingsEditor" timestamp="1606735353362">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="461" y="165" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1604847473418" />
-    <state x="552" y="249" key="Vcs.Push.Dialog.v2" timestamp="1606157567729">
+    <state x="461" y="165" key="SettingsEditor/0.1080.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1606735353362" />
+    <state x="552" y="249" key="Vcs.Push.Dialog.v2" timestamp="1606463364261">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="552" y="249" key="Vcs.Push.Dialog.v2/0.0.1920.1040/0.1080.1920.1040@0.0.1920.1040" timestamp="1606157567729" />
     <state x="552" y="249" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1605895747832" />
+    <state x="552" y="249" key="Vcs.Push.Dialog.v2/0.1080.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1606463364261" />
     <state x="777" y="430" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1605129947219">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
